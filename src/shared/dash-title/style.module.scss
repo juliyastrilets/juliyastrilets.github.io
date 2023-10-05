@@ -1,0 +1,38 @@
+@import '~@/scss/brakepoints.scss';
+
+.title {
+  color: inherit;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24px;
+
+  &:not(:last-child) {
+    margin-bottom: 16px;
+
+    @include min-tablet() {
+      margin-bottom: 32px;
+    }
+  }
+
+  &::before {
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    width: 32px;
+    height: 2px;
+    margin-right: 16px;
+    background: currentColor;
+  }
+
+  &:not(.long) {
+    &::before {
+      width: 32px;
+    }
+  }
+  &.long {
+    &::before {
+      width: 88px;
+    }
+  }
+}

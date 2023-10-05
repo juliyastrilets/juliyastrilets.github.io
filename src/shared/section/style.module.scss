@@ -1,0 +1,27 @@
+@import '~@/scss/brakepoints.scss';
+
+.section {
+  padding: 20px 24px;
+
+  @include min-tablet {
+    padding: 40;
+  }
+  @include min-desktop {
+    padding: 60px 40px;
+  }
+}
+
+.short {
+  @include min-desktop() {
+    max-width: 1320px;
+    margin: 0 auto;
+  }
+}
+
+.gradient {
+  background: linear-gradient(
+    90deg,
+    rgba(146, 73, 242, 0.12) 0%,
+    rgba(255, 95, 73, 0.12) 100%
+  );
+}

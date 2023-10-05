@@ -1,0 +1,21 @@
+@import '~@/scss/brakepoints.scss';
+
+.wrapper {
+  color: #5e6971;
+  text-align: center;
+  font-size: 16px;
+  line-height: 18px;
+  padding: 40px 24px;
+
+  @include min-tablet() {
+    padding: 120px 40px 40px;
+  }
+  @include min-desktop() {
+    font-size: 18px;
+    line-height: 24px;
+  }
+}
+
+.contacts {
+  margin-bottom: 24px;
+}

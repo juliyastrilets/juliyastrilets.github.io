@@ -1,0 +1,13 @@
+@import '~@/scss/brakepoints.scss';
+
+.skillsContent {
+  display: grid;
+  gap: 60px;
+  margin-bottom: 40px;
+
+  @include min-tablet() {
+    display: grid;
+    gap: 40px;
+    grid-template-columns: 1fr 1fr;
+  }
+}

@@ -49,6 +49,6 @@ export const WorkHistoryList: Skill[] = [
     id: 3,
     date: 'March 2020 - May 2021',
     title: 'Valimark Trade LP, Dublin',
-    text: 'HTML, CSS, Pug, Webpack, Git, БЭМ, Adaptive layout, Cross-browser layout',
+    text: 'HTML, CSS, Pug, Webpack, Git, BEM, Adaptive layout, Cross-browser layout',
   },
 ];

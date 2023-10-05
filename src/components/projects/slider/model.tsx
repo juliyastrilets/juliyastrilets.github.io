@@ -46,7 +46,8 @@ export const slides: Slide[] = [
     demo: 'Demo',
     source: 'Source',
     hrefDemo: '#',
-    hrefSource: 'https://github.com/juliyastrilets/portfolio',
+    hrefSource:
+      'https://github.com/juliyastrilets/juliyastrilets.github.io',
   },
   // {
   //   id: 5,

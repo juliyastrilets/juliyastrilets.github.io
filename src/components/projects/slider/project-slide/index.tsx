@@ -13,25 +13,16 @@ export const ProjectSlide = ({ slide }: ProjectSlideProps) => {
         <p className={styles.subtitle}>{slide.subtitle}</p>
       </div>
       <div className={styles.footer}>
-        <a
-          className={styles.button}
-          href={slide.hrefDemo}
-          target="_blank"
-        >
-          {slide.demo}
-        </a>
-        {slide.hrefSource && (
-          <>
-            <div className={styles.verticalSeparator} />
-            <a
-              className={styles.button}
-              href={slide.hrefSource}
-              target="_blank"
-            >
-              {slide.source}
-            </a>
-          </>
-        )}
+        {slide.links.map((link) => (
+          <a
+            className={styles.button}
+            key={link.id}
+            href={link.href}
+            target="_blank"
+          >
+            {link.title}
+          </a>
+        ))}
       </div>
     </div>
   );

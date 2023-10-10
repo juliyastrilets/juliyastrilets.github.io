@@ -1,11 +1,14 @@
+interface Link {
+  id: number;
+  title: string;
+  href: string;
+}
+
 export interface Slide {
   id: number;
   title: string;
   subtitle: string;
-  demo: string;
-  source: string;
-  hrefDemo: string;
-  hrefSource: string;
+  links: Link[];
 }
 
 export const slides: Slide[] = [
@@ -14,66 +17,62 @@ export const slides: Slide[] = [
     title: 'DiKom',
     subtitle:
       'Participated in the development and layout of the site on React',
-    demo: 'Demo',
-    source: 'Source',
-    hrefDemo: 'https://www.dikom.ru/',
-    hrefSource: '',
+
+    links: [{ id: 1, title: 'Demo', href: 'https://www.dikom.ru/' }],
   },
   {
     id: 2,
     title: 'IQ sleep',
     subtitle:
       'Participated in the development and layout of the site on JS',
-    demo: 'Demo',
-    source: 'Source',
-    hrefDemo: 'https://iqsleep.ru/',
-    hrefSource: '',
+    links: [{ id: 1, title: 'Demo', href: 'https://iqsleep.ru/' }],
   },
   {
     id: 3,
     title: 'Empay',
     subtitle:
-      'Participated in the development and layout of the site on React',
-    demo: 'Demo',
-    source: 'Source',
-    hrefDemo: 'https://empay.com/',
-    hrefSource: '',
+      'Participated in the development and layout of the site on React. This is just a landing page, the main project in development.',
+    links: [{ id: 1, title: 'Demo', href: 'https://empay.com/' }],
   },
   {
     id: 4,
     title: 'Portfolio',
-    subtitle: 'This portfolio project',
-    demo: 'Demo',
-    source: 'Source',
-    hrefDemo: '#home',
-    hrefSource:
-      'https://github.com/juliyastrilets/juliyastrilets.github.io',
+    subtitle: 'Source of this portfolio',
+    links: [
+      {
+        id: 1,
+        title: 'Source',
+        href: 'https://github.com/juliyastrilets/juliyastrilets.github.io',
+      },
+    ],
   },
   {
     id: 5,
-    title: 'Example: TodoList Zustand',
-    subtitle: 'Project implemented with the help Zustund',
-    demo: 'Demo',
-    source: 'Source',
-    hrefDemo: 'https://juliyastrilets.github.io/todos-zustand/',
-    hrefSource: 'https://github.com/juliyastrilets/todos-zustand',
+    title: 'Example: TodoList with Zustand',
+    subtitle: 'Project implemented with the help Zustand',
+    links: [
+      {
+        id: 1,
+        title: 'Demo',
+        href: 'https://juliyastrilets.github.io/todos-zustand/',
+      },
+      {
+        id: 2,
+        title: 'Source',
+        href: 'https://github.com/juliyastrilets/todos-zustand',
+      },
+    ],
   },
   // {
   //   id: 6,
   //   title: 'Example: TodoList Redux',
   //   subtitle: 'Project implemented with the help Redux.',
-  //   demo: 'Demo',
-  //   source: 'Source',
-  //   hrefDemo: '#',
-  //   hrefSource: '#',
+  //   links: []
   // },
   // {
   //   id: 7,
   //   title: 'Example: Market',
   //   subtitle: 'Project implemented React',
-  //   demo: 'Demo',
-  //   source: 'Source',
-  //   hrefDemo: '#',
-  //   hrefSource: '#',
+  //   links: []
   // },
 ];

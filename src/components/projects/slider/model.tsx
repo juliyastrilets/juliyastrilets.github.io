@@ -46,23 +46,23 @@ export const slides: Slide[] = [
       },
     ],
   },
-  {
-    id: 5,
-    title: 'Example: TodoList with Zustand',
-    subtitle: 'Project implemented with the help Zustand',
-    links: [
-      {
-        id: 1,
-        title: 'Demo',
-        href: 'https://juliyastrilets.github.io/todos-zustand/',
-      },
-      {
-        id: 2,
-        title: 'Source',
-        href: 'https://github.com/juliyastrilets/todos-zustand',
-      },
-    ],
-  },
+  // {
+  //   id: 5,
+  //   title: 'Example: TodoList with Zustand',
+  //   subtitle: 'Project implemented with the help Zustand',
+  //   links: [
+  //     {
+  //       id: 1,
+  //       title: 'Demo',
+  //       href: 'https://juliyastrilets.github.io/todos-zustand/',
+  //     },
+  //     {
+  //       id: 2,
+  //       title: 'Source',
+  //       href: 'https://github.com/juliyastrilets/todos-zustand',
+  //     },
+  //   ],
+  // },
   // {
   //   id: 6,
   //   title: 'Example: TodoList Redux',

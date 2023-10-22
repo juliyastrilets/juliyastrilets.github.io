@@ -44,7 +44,7 @@ export const slides: Slide[] = [
       {
         id: 1,
         title: 'Source',
-        href: 'https://github.com/juliyastrilets/todos-redux',
+        href: 'https://github.com/juliyastrilets/todos-zustand',
       },
       {
         id: 2,

@@ -24,12 +24,7 @@ export const Hero = () => {
           Hello, I’m <br />
           Julia Strilets
         </h1>
-        <Paragraph
-          text="I’m a web interface developer with a keen eye for details. I
-          was trained at HTML-Academy and continue to improve. I have
-          good teachers and mentors. I love my job and work with
-          pleasure and dedication."
-        />
+        <Paragraph text="In the frontend since 2020. I started with layout and expanded my knowledge as I worked. I regularly learn something new and increase my profits. All these years I've been working in a hospital and working on other people's code. I have no problems with communication, I love an active lifestyle, sports and travel." />
       </article>
     </div>
   );

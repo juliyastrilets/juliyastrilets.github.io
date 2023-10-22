@@ -39,7 +39,7 @@ export const slides: Slide[] = [
   {
     id: 3,
     title: 'Example: TodoList with Zustand',
-    subtitle: 'Project implemented with the help Redux.',
+    subtitle: 'Project implemented with the help Zustand.',
     links: [
       {
         id: 1,

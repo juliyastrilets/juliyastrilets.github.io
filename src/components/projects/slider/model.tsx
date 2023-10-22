@@ -38,6 +38,23 @@ export const slides: Slide[] = [
   },
   {
     id: 3,
+    title: 'Example: TodoList with Zustand',
+    subtitle: 'Project implemented with the help Redux.',
+    links: [
+      {
+        id: 1,
+        title: 'Source',
+        href: 'https://github.com/juliyastrilets/todos-redux',
+      },
+      {
+        id: 2,
+        title: 'Demo',
+        href: 'https://juliyastrilets.github.io/todos-zustand/',
+      },
+    ],
+  },
+  {
+    id: 4,
     title: 'DiKom',
     subtitle:
       'Participated in the development and layout of the site on React',
@@ -45,14 +62,14 @@ export const slides: Slide[] = [
     links: [{ id: 1, title: 'Demo', href: 'https://www.dikom.ru/' }],
   },
   {
-    id: 4,
+    id: 5,
     title: 'IQ sleep',
     subtitle:
       'Participated in the development and layout of the site on JS',
     links: [{ id: 1, title: 'Demo', href: 'https://iqsleep.ru/' }],
   },
   {
-    id: 5,
+    id: 6,
     title: 'Empay',
     subtitle:
       'Participated in the development and layout of the site on React. This is just a landing page, the main project in development.',

@@ -9,7 +9,7 @@ export const Hero = () => {
       <div className={styles.wrapperImg}>
         <Image
           className={styles.img}
-          src="/img/user-ai.webp"
+          src="/img/user.webp"
           alt="icon"
           width={534}
           height={534}

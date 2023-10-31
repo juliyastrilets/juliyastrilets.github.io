@@ -36,19 +36,19 @@ export const WorkHistoryList: Skill[] = [
   {
     id: 1,
     date: 'November 2021 - Until now',
-    title: 'Empay Fintech, Moscow',
+    title: 'Empay',
     text: 'Frontend Developer',
   },
   {
     id: 2,
-    date: 'May 2021- November 2021',
-    title: 'MEIJI MEDIA, Moscow',
-    text: 'Web development, BEM, Sass, Pug, JavaScript, JQuery, Gulp, Git',
+    date: 'May 2021 - November 2021',
+    title: 'Meiji Media',
+    text: 'Frontend Developer',
   },
   {
     id: 3,
     date: 'March 2020 - May 2021',
-    title: 'Valimark Trade LP, Dublin',
-    text: 'HTML, CSS, Pug, Webpack, Git, BEM, Adaptive layout, Cross-browser layout',
+    title: 'Valimark Trade LP',
+    text: 'HTML Developer',
   },
 ];

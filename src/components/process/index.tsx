@@ -8,11 +8,7 @@ export const Process = () => {
     <>
       <div className={styles.text}>
         <Title text="Working process" />
-        <Paragraph
-          text="In my work, accessibility of interfaces and code quality are
-        important to me. Semantics and cross-browser compatibility are
-        not empty words for me."
-        />
+        <Paragraph text="I immerse myself in the process with my head and a high level of self-discipline. My workflow can be described by the life cycle of a task." />
       </div>
       <ul className={styles.list}>
         {ProcessSteps.map((step) => (

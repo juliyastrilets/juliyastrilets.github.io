@@ -24,7 +24,10 @@ export const Hero = () => {
           Hello, I’m <br />
           Julia Strilets
         </h1>
-        <Paragraph text="In the frontend since 2020. I started with layout and expanded my knowledge as I worked. I regularly learn something new and increase my profits. All these years I've been working in a hospital and working on other people's code. I have no problems with communication, I love an active lifestyle, sports and travel." />
+        <Paragraph
+          text="In the frontend since 2020. I have successfully conducted three major releases, the current project is huge and is in a pre-release state. I regularly learn something new and improve my professionalism.
+For all the years I have been working in a team and dealing with someone else's code. I have no problems in communication, I love an active lifestyle, sports and travel."
+        />
       </article>
     </div>
   );

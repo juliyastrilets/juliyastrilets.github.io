@@ -27,12 +27,14 @@
 
   @include min-tablet() {
     max-width: 300px;
+    max-height: 300px;
     margin-bottom: 0;
   }
   @include min-desktop() {
     width: 536px;
     height: 536px;
     max-width: unset;
+    max-height: unset;
   }
 }
 

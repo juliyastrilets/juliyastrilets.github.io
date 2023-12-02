@@ -6,38 +6,34 @@ export interface ProcessStep {
 export const ProcessSteps: ProcessStep[] = [
   {
     id: 1,
-    text: '1. Task analysis',
+    text: '1. Анализ задачи',
   },
   {
     id: 2,
-    text: '2. Clarifying questions',
+    text: '2. Уточняющие вопросы',
   },
   {
     id: 3,
-    text: '3. Task assessment',
+    text: '3. Оценка',
   },
   {
     id: 4,
-    text: '4. Development',
+    text: '4. Выполнение',
   },
   {
     id: 5,
-    text: '6. Preliminary testing',
+    text: '6. Предварительное тестирование',
   },
   {
     id: 6,
-    text: '5. Description of documentation',
+    text: '5. Описание документации',
   },
   {
     id: 7,
-    text: '7. Code review',
+    text: '7. Проверка кода',
   },
   {
     id: 8,
-    text: '8. Design review',
-  },
-  {
-    id: 9,
-    text: '9. Transfer to testing',
+    text: '8. Передача в тестирование',
   },
 ];

@@ -14,65 +14,64 @@ export interface Slide {
 export const slides: Slide[] = [
   {
     id: 1,
-    title: 'Portfolio',
-    subtitle: 'Source of this portfolio',
-    links: [
-      {
-        id: 1,
-        title: 'Source',
-        href: 'https://github.com/juliyastrilets/juliyastrilets.github.io',
-      },
-    ],
+    title: 'Empay',
+    subtitle:
+      'Проект для сбора средств на реализацию идей и благотварительность',
+    links: [{ id: 1, title: 'Сайт', href: 'https://empay.com/' }],
   },
   {
     id: 2,
-    title: 'Example: TodoList with Redux Toolkit',
-    subtitle: 'Project implemented with the help Redux.',
-    links: [
-      {
-        id: 1,
-        title: 'Source',
-        href: 'https://github.com/juliyastrilets/todos-redux',
-      },
-    ],
+    title: 'ДиКом',
+    subtitle: 'Официальный сайт завода «Диком»',
+    links: [{ id: 1, title: 'Сайт', href: 'https://www.dikom.ru/' }],
   },
   {
     id: 3,
-    title: 'Example: TodoList with Zustand',
-    subtitle: 'Project implemented with the help Zustand.',
+    title: 'IQ sleep',
+    subtitle: 'Магазин товаров для сна',
+    links: [{ id: 1, title: 'Сайт', href: 'https://iqsleep.ru/' }],
+  },
+  {
+    id: 4,
+    title: 'Cписок задач',
+    subtitle:
+      'Пример кода приложения для списка задач с применением Next.js и Zustand. Настроен деплой',
     links: [
       {
         id: 1,
-        title: 'Source',
+        title: 'Github',
         href: 'https://github.com/juliyastrilets/todos-zustand',
       },
       {
         id: 2,
-        title: 'Demo',
+        title: 'Сайт',
         href: 'https://juliyastrilets.github.io/todos-zustand/',
       },
     ],
   },
   {
-    id: 4,
-    title: 'DiKom',
-    subtitle:
-      'Participated in the development and layout of the site on React',
-
-    links: [{ id: 1, title: 'Demo', href: 'https://www.dikom.ru/' }],
-  },
-  {
     id: 5,
-    title: 'IQ sleep',
-    subtitle:
-      'Participated in the development and layout of the site on JS',
-    links: [{ id: 1, title: 'Demo', href: 'https://iqsleep.ru/' }],
+    title: 'Портфолио',
+    subtitle: 'Источник кода данного портфолио на github',
+    links: [
+      {
+        id: 1,
+        title: 'Github',
+        href: 'https://github.com/juliyastrilets/juliyastrilets.github.io',
+      },
+    ],
   },
   {
     id: 6,
-    title: 'Empay',
+    title: 'Cписок задач',
     subtitle:
-      'Participated in the development and layout of the site on React. This is just a landing page, the main project in development.',
-    links: [{ id: 1, title: 'Demo', href: 'https://empay.com/' }],
+      'Пример кода приложения для списка задач с применением Next.js и Redux Toolkit',
+    links: [
+      {
+        id: 1,
+        title: 'Github',
+        href: 'https://github.com/juliyastrilets/todos-redux',
+      },
+    ],
   },
 ];

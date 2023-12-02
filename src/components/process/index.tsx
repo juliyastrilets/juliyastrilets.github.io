@@ -7,8 +7,8 @@ export const Process = () => {
   return (
     <>
       <div className={styles.text}>
-        <Title text="Working process" />
-        <Paragraph text="I immerse myself in the process with my head and a high level of self-discipline. My workflow can be described by the life cycle of a task." />
+        <Title text="Мой рабочий процесс" />
+        <Paragraph text="Я полностью погружаюсь в процесс и обладаю высоким уровнем самодисциплины. Проще всего это можно описать жизненным циклом задачи." />
       </div>
       <ul className={styles.list}>
         {ProcessSteps.map((step) => (

@@ -8,12 +8,12 @@ export const Skills = () => {
     <>
       <div className={styles.skillsContent}>
         <SkillsList
-          title="Education"
+          title="Образование"
           color="blue"
           items={EducationList}
         />
         <SkillsList
-          title="Work History"
+          title="Опыт работы"
           color="orange"
           items={WorkHistoryList}
         />

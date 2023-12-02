@@ -39,7 +39,9 @@
   &:hover {
     background: rgba(146, 73, 242, 0.05);
   }
-
+  &:not(:first-child) {
+    border-left: 1px solid rgba(0, 0, 0, 0.1);
+  }
   &:first-child {
     border-bottom-left-radius: 8px;
   }

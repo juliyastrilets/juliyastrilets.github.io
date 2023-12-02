@@ -5,7 +5,7 @@ interface MenuItem {
 }
 
 export const MenuItems: MenuItem[] = [
-  { id: 1, title: 'Work & Skills', href: '#skills' },
-  { id: 2, title: 'Projects', href: '#projects' },
-  { id: 3, title: 'Contacts', href: '#footer' },
+  { id: 1, title: 'Работа и навыки', href: '#skills' },
+  { id: 2, title: 'Проекты', href: '#projects' },
+  { id: 3, title: 'Контакты', href: '#footer' },
 ];

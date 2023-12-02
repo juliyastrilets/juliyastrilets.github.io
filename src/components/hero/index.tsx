@@ -18,16 +18,13 @@ export const Hero = () => {
       </div>
       <article className={styles.info}>
         <div className={styles.caption}>
-          <DashTitle title="Frontend Developer" long />
+          <DashTitle title="Разработчик интерфейсов" long />
         </div>
         <h1 className={styles.title}>
-          Hello, I’m <br />
-          Julia Strilets
+          Привет, <br />
+          Меня зовут Юля
         </h1>
-        <Paragraph
-          text="In the frontend since 2020. I have successfully conducted three major releases, the current project is huge and is in a pre-release state. I regularly learn something new and improve my professionalism.
-For all the years I have been working in a team and dealing with someone else's code. I have no problems in communication, I love an active lifestyle, sports and travel."
-        />
+        <Paragraph text="В разработке с 2020 года. Успешно провела три крупных релиза, текущий проект огромен и находится в предрелизном состоянии. Регулярно узнаю что-то новое, повышаю свой профессионализм, обращаюсь к менторам, в общем всесторонне улучшаюсь. Все эти годы я работаю в команде и имею дело с чужим кодом. У меня нет проблем в общении, я люблю активный образ жизни, спорт и путешествия." />
       </article>
     </div>
   );

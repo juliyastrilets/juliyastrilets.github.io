@@ -7,7 +7,7 @@ interface FooterProps
 
 export const Footer = ({ ...extendProps }: FooterProps) => {
   const currentYear = new Date().getFullYear();
-  const paragraphText = `Julia Strilets, ${currentYear}`;
+  const paragraphText = `Юлия Стрилец, ${currentYear}`;
 
   return (
     <footer className={styles.wrapper} {...extendProps}>

@@ -14,7 +14,7 @@ export const Header = () => {
             height={48}
           />
         </div>
-        <span className={styles.text}>Strilets</span>
+        <span className={styles.text}>Стрилец</span>
       </div>
       <nav className={styles.contentRight}>
         <Menu />

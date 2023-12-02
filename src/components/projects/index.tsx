@@ -7,12 +7,8 @@ export const Projects = () => {
   return (
     <>
       <div className={styles.text}>
-        <Title text="My some projects" />
-        <Paragraph
-          text=" Since all my experience is commercial, I prepared a
-          selection of my recent works.You can view the code by
-          clicking on the project."
-        />
+        <Title text="Проекты" />
+        <Paragraph text="Вы можете познакомиться с проектами в создании которых я принимали участие. А так же с проектами демонстрирующими мои навыки с примерами кода" />
       </div>
       <Slider />
     </>

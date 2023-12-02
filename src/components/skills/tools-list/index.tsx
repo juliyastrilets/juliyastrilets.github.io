@@ -7,7 +7,7 @@ export const ToolsList = () => {
   return (
     <>
       <div className={styles.title}>
-        <DashTitle title="Tools i use" />
+        <DashTitle title="Инструменты и технологии" />
       </div>
       <ul className={styles.list}>
         {Tools.map((tool) => (

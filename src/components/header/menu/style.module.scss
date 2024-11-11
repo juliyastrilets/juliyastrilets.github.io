@@ -1,0 +1,17 @@
+.list {
+  display: flex;
+  gap: 32px;
+}
+
+.item {
+  list-style-type: none;
+  flex-shrink: 0;
+  color: #7b848b;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+
+  &:hover {
+    color: #121314;
+  }
+}

@@ -1,0 +1,67 @@
+@import '~@/scss/brakepoints.scss';
+
+.wrapper {
+  margin-right: -24px;
+
+  @include min-tablet() {
+    margin-right: 0px;
+  }
+
+  :global {
+    .swiper {
+      padding-right: 24px;
+      @include min-tablet() {
+        padding-right: 0px;
+      }
+    }
+    .swiper-slide {
+      height: auto;
+    }
+    .swiper-button-prev {
+      display: none;
+      align-items: center;
+      justify-content: center;
+      width: 48px;
+      height: 48px;
+      border-radius: 100%;
+      background: #fff;
+      box-shadow: 0px 0px 24px 0px rgba(18, 19, 20, 0.08);
+      @include min-laptop() {
+        display: flex;
+      }
+    }
+    .swiper-button-prev::after {
+      content: '';
+      background-image: url('/icons/arrow.svg');
+      background-repeat: no-repeat;
+      background-position: center;
+      width: 24px;
+      height: 24px;
+    }
+    .swiper-button-next {
+      display: none;
+      align-items: center;
+      justify-content: center;
+      transform: rotate(-180deg);
+      width: 48px;
+      height: 48px;
+      border-radius: 100%;
+      background: #fff;
+      box-shadow: 0px 0px 24px 0px rgba(18, 19, 20, 0.08);
+      @include min-laptop() {
+        display: flex;
+      }
+    }
+    .swiper-button-next::after {
+      content: '';
+      background-image: url('/icons/arrow.svg');
+      background-repeat: no-repeat;
+      background-position: center;
+      width: 24px;
+      height: 24px;
+    }
+    .swiper-button-disabled {
+      visibility: hidden;
+    }
+  }
+}

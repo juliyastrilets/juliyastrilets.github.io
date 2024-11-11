@@ -1,0 +1,57 @@
+@import '~@/scss/brakepoints.scss';
+
+.slide {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  border-radius: 8px;
+  background: linear-gradient(
+    90deg,
+    rgba(146, 73, 242, 0.12) 0%,
+    rgba(255, 95, 73, 0.12) 100%
+  );
+}
+
+.main {
+  padding: 24px;
+}
+
+.title {
+  font-size: 16px;
+  margin-bottom: 4px;
+}
+.subtitle {
+  font-size: 16px;
+}
+
+.footer {
+  display: flex;
+  margin-top: auto;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.button {
+  width: 100%;
+  text-align: center;
+  padding: 12px;
+  font-size: 16px;
+
+  &:hover {
+    background: rgba(146, 73, 242, 0.05);
+  }
+  &:not(:first-child) {
+    border-left: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  &:first-child {
+    border-bottom-left-radius: 8px;
+  }
+  &:last-child {
+    border-bottom-right-radius: 8px;
+  }
+}
+
+.verticalSeparator {
+  width: 1px;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.1);
+}

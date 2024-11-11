@@ -1,0 +1,41 @@
+@import '~@/scss/brakepoints.scss';
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 24px 0;
+
+  @include min-tablet() {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+  }
+}
+
+.contentLeft {
+  display: flex;
+  align-items: center;
+}
+
+.contentRight {
+  display: none;
+
+  @include min-tablet() {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.icon {
+  width: 48px;
+  height: 48px;
+  margin-right: 12px;
+}
+
+.text {
+  color: #121314;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+}

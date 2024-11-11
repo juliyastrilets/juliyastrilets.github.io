@@ -1,0 +1,22 @@
+@import '~@/scss/brakepoints.scss';
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+
+  @include min-desktop() {
+    gap: 24px;
+  }
+}
+
+.contact {
+  background: #f5f6f7;
+  padding: 12px;
+  border-radius: 6px;
+  background: #fff;
+}
+
+.icon {
+  display: block;
+}

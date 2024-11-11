@@ -1,0 +1,39 @@
+.wrapper {
+  list-style-type: none;
+
+  &--orange {
+    color: #ff5f49;
+  }
+  &--blue {
+    color: #1777e5;
+  }
+}
+
+.listItem {
+  &:not(:last-child) {
+    margin-bottom: 24px;
+  }
+}
+
+.itemDate {
+  color: inherit;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  margin-bottom: 4px;
+}
+
+.itemTitle {
+  color: #121314;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.itemText {
+  color: #5e6971;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18px;
+}

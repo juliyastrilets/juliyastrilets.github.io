@@ -1,0 +1,12 @@
+@import '~@/scss/brakepoints.scss';
+
+.text {
+  margin-bottom: 16px;
+
+  @include min-tablet {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 32px;
+  }
+}

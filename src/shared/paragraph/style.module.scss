@@ -1,0 +1,20 @@
+@import '~@/scss/brakepoints.scss';
+
+.paragraph {
+  color: #485057;
+  font-size: 16px;
+  line-height: 130%;
+  font-weight: 400;
+
+  @include min-desktop() {
+    font-size: 18px;
+  }
+
+  &:not(:last-child) {
+    margin-bottom: 16px;
+
+    @include min-tablet() {
+      margin-bottom: 24px;
+    }
+  }
+}

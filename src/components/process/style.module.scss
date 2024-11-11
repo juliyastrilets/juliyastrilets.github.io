@@ -1,0 +1,37 @@
+@import '~@/scss/brakepoints.scss';
+
+.text {
+  margin-bottom: 16px;
+
+  @include min-tablet {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 32px;
+  }
+}
+
+.list {
+  display: grid;
+  gap: 12px;
+  grid-template-columns: 1fr;
+
+  @include min-tablet() {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  @include min-desktop() {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.item {
+  list-style-type: none;
+  color: #121314;
+  font-weight: 400;
+  background: #f5f6f7;
+  display: flex;
+  align-items: flex-start;
+  padding: 16px;
+  border-radius: 6px;
+}
